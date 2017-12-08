@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jbzmv8waterpologroupmebot.MainViewController">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="File">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#handleMessageButton" text="New Message" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleSaveBot" text="Save Clif" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleAboutButton" text="About" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleLogoutButton" text="Logout" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Current Messages" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="Baghdad Regular" size="30.0" />
+         </font>
+      </Text>
+      <Button layoutX="509.0" layoutY="42.0" mnemonicParsing="false" onAction="#handleMessageButton" text="Message" />
+      <ListView fx:id="list" layoutY="75.0" prefHeight="275.0" prefWidth="297.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="70.0" />
+      <ListView fx:id="list1" layoutX="302.0" layoutY="69.0" prefHeight="275.0" prefWidth="297.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="293.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="70.0" />
+      <Button layoutX="428.0" layoutY="42.0" mnemonicParsing="false" onAction="#updateMessageList" text="Refresh" />
+      <Button layoutX="354.0" layoutY="42.0" mnemonicParsing="false" onAction="#deleteSelectedMessage" text="Delete" />
+   </children>
+</AnchorPane>

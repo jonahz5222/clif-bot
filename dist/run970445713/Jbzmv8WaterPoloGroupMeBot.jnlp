@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Jbzmv8WaterPoloGroupMeBot.jnlp">
+  <information>
+    <title>Jbzmv8WaterPoloGroupMeBot</title>
+    <vendor>jonahzukosky</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Jbzmv8WaterPoloGroupMeBot.jar" size="25538" download="eager" />
+    <jar href="lib/gson-2.8.2-javadoc.jar" size="263440" download="eager" />
+    <jar href="lib/gson-2.8.2.jar" size="232932" download="eager" />
+    <jar href="lib/jackson-annotations-2.9.2.jar" size="66793" download="eager" />
+    <jar href="lib/jackson-core-2.9.2-javadoc.jar" size="1111999" download="eager" />
+    <jar href="lib/jackson-core-2.9.2.jar" size="321243" download="eager" />
+    <jar href="lib/jackson-databind-2.9.2.jar" size="1333874" download="eager" />
+    <jar href="lib/json-simple-1.1.1.jar" size="23737" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Jbzmv8WaterPoloGroupMeBot" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="jbzmv8waterpologroupmebot.Jbzmv8WaterPoloGroupMeBot"  name="Jbzmv8WaterPoloGroupMeBot" />
+  <update check="always"/>
+</jnlp>
