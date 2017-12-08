@@ -9,7 +9,7 @@
 ### Classes
 
     For this project, there were two main classes that I created.
-        First, **Bot.java**, which is a singleton class designed to hold the attributes of my bot, including API key, name, and its list of messages.
+        First, __Bot.java__, which is a singleton class designed to hold the attributes of my bot, including API key, name, and its list of messages.
         Second, **Message.java**, which was designed to hold the attributes of each message that populates the messageList of the bot. These include title, message,date,time, and frequency.
 
 ### Subclasses
